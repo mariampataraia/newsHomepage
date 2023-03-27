@@ -3,3 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.new {
+    font-family: 'Inter-regular';
+    /* font-weight: bold; */
+}
+
+.neww {
+    font-family: 'Inter-bold';
+    /* font-weight: bold; */
+}
+
+.newww {
+    font-family: 'Inter-extrabold';
+    /* font-weight: bold; */
+}
+
+.title {
+    font-size: 3.2rem;
+    font-family: 'Inter-extrabold';
+}
+
+.text {
+    font-size: 1rem;
+    font-family: 'Inter-regular';
+}
+
+.secondary_title {
+    font-size: 1.5rem;
+    font-family: 'Inter-bold';
+}
+
+.nav_text {
+    font-size: 1.15rem;
+    font-family: 'Inter-regular';
+}
