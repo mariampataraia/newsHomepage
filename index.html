@@ -14,9 +14,9 @@
 
 </head>
 
-<body class="  bg-body-tertiary">
+<body class="  bg-body-tertiary" style="width:100%">
 
-  <header>
+  <header class="m-0 w-100">
 
     <div class="container-fluid container-lg ">
       <nav class="navbar bg-body-tertiary navbar-expand-lg mt-5 ">
@@ -26,7 +26,7 @@
             data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+          <div class="offcanvas offcanvas-end p-4 text-black" tabindex="-1" id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header ">
               <div class="text-end  w-100"><button type="button" class="btn-close " data-bs-dismiss="offcanvas"
@@ -58,42 +58,31 @@
         </div>
       </nav>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
   </header>
 
-  <main class=" d-flex align-items-center flex-column ">
-    <section class=" m-5 container-fluid container-lg p-0">
+  <main class=" d-flex align-items-center flex-column m-0 w-100 ">
+    <section class="container-fluid container-lg p-0 m-0">
       <div class="row ">
 
-        <div class=" col-sm-9" style=" height: 60vh;">
+        <div class=" col-lg-9 col-12 ">
           <img src="assets/images/image-web-3-desktop.jpg " alt="" class="w-100 ">
-          <div class="row mt-5 ">
-            <div class="col-6 display-4 fw-bold title">The Bright Future of Web 3.0?
+          <div class="row mt-5">
+            <div class="col-sm-6 col-12 display-4 fw-bold title mb-3">The Bright Future of Web 3.0?
             </div>
-            <div class="col-6 d-flex flex-column justify-content-between text">
+            <div class="col-sm-6 col-12 d-flex flex-column justify-content-between text">
               <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the
                 hands of the people.
                 But is it really fulfilling its promise?</p>
-              <div class="btn btn-danger rounded-0 w-50 p-2 text mt-4" style="letter-spacing: 0.25rem;">READ MORE</div>
+              <div class="btn btn-danger rounded-0 w-50 p-2 text mt-4 mb-5" style="letter-spacing: 0.25rem;">READ MORE
+              </div>
             </div>
           </div>
         </div>
-        <div class=" col-sm-3  ">
-          <div class="card text-bg-dark mb-3 p-3 rounded-0 h-100" style="max-width: 18rem;">
+        <div class=" col-lg-3 col-12  mb-5 mg-lg-3">
+          <div class="card text-bg-dark  mt-lg-0 mt-5 w-100 p-1 rounded-0 h-100">
 
             <div class="card-body">
-              <div class="h1 text-warning title" style="font-size: 2.5rem;">NEW</div>
+              <div class="h1 text-warning title mb-4" style="font-size: 2.3rem;">NEW</div>
               <h5 class="card-title secondary_title"> Hydrogen VS Electric Cars</h5>
               <p class="card-text border-bottom  border-light pb-3 text">Will hydrogen-fueled cars ever catch up to EVs?
               </p>
@@ -110,43 +99,43 @@
       </div>
     </section>
     <section class="mb-5 container-fluid container-lg">
-      <div class=" mt-3">
+      <div class=" mt-5 mt-sm-3">
 
 
         <div class="row">
-          <div class="col-4 ">
+          <div class="col-sm-4 col-12 p-2 mb-3 ">
 
             <div class="row">
               <div class="col-4 p-0 m-0">
                 <img src="assets/images/image-retro-pcs.jpg" class="w-100" alt="">
               </div>
               <div class="col-8 d-flex flex-column justify-content-between">
-                <p class="h1 text-secondary">01</p>
+                <p class="h1 text-secondary number_text">01</p>
                 <h2 class="h5 fw-bold secondary_title">Reviving Retro PCs</h2>
                 <div class=" text">What happens when old PCs are given modern upgrades?</div>
               </div>
             </div>
 
           </div>
-          <div class="col-4 ">
+          <div class="col-sm-4 col-12 p-2 mb-3">
             <div class="row">
               <div class="col-4 p-0 m-0">
                 <img src="assets/images/image-top-laptops.jpg" class="w-100" alt="">
               </div>
               <div class="col-8 d-flex flex-column justify-content-between">
-                <p class="h1 text-secondary">02</p>
+                <p class="h1 text-secondary number_text">02</p>
                 <h2 class="h5 fw-bold secondary_title">Top 10 Laptops of 2022</h2>
                 <div class="text ">Our best picks for various needs and budgets.</div>
               </div>
             </div>
           </div>
-          <div class="col-4 ">
+          <div class="col-sm-4 col-12 p-2 mb-3">
             <div class="row">
               <div class="col-4 p-0 m-0">
                 <img src="assets/images/image-gaming-growth.jpg" class="w-100" alt="">
               </div>
-              <div class="col-8 d-flex flex-column justify-content-between">
-                <p class="h1 text-secondary">03</p>
+              <div class="col-8 d-flex flex-column justify-content-between ">
+                <p class="h1 text-secondary number_text">03</p>
                 <h2 class="h5 fw-bold secondary_title">The Growth of Gaming</h2>
                 <div class="text ">How the pandemic has sparked fresh opportunities.</div>
               </div>
@@ -160,11 +149,14 @@
     </section>
   </main>
 
+  <footer class="w-100 m-0">
+    <div class="attribution mt-5 mb-3 text-center">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Mariam Pataraia</a>.
+    </div>
+  </footer>
 
-  <div class="attribution mt-5 mb-3 text-center">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Mariam Pataraia</a>.
-  </div>
+
 
   <script src="script/bootstrap.js"></script>
   <script src="script/script.js"></script>
