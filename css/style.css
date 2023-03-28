@@ -4,21 +4,6 @@
     box-sizing: border-box;
 }
 
-.new {
-    font-family: 'Inter-regular';
-    /* font-weight: bold; */
-}
-
-.neww {
-    font-family: 'Inter-bold';
-    /* font-weight: bold; */
-}
-
-.newww {
-    font-family: 'Inter-extrabold';
-    /* font-weight: bold; */
-}
-
 .title {
     font-size: 3.2rem;
     font-family: 'Inter-extrabold';
@@ -32,14 +17,62 @@
 .secondary_title {
     font-size: 1.5rem;
     font-family: 'Inter-bold';
+    text-decoration: none;
+}
+
+.secondary_title:hover {
+    color: #eea84d;
+}
+
+.bigger_card_title {
+    color: #eea84d;
+    font-size: 2.4rem;
+    font-family: 'Inter-extrabold';
+}
+
+.secondary_title_sectiontwo {
+    font-size: 1.35rem;
+    font-family: 'Inter-bold';
+    text-decoration: none;
+}
+
+
+.secondary_title_sectiontwo:hover {
+    color: #e95951;
+}
+
+.btn-danger {
+    background-color: #ea6151;
 }
 
 .nav_text {
     font-size: 1.15rem;
     font-family: 'Inter-regular';
+    color: ;
+}
+
+.nav_text:hover {
+
+    color: #d9786d;
 }
 
 .number_text {
     font-family: 'Inter-bold';
     font-size: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    html {
+        font-size: 13px;
+    }
 }
